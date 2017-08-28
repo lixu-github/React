@@ -27,9 +27,10 @@ fi
 
 rm ./lib_i386_x86.a ./lib_armv7_arm64.a
 
-rm ./Release/lib${target}.a
+rm ./${sourceFile}/lib${target}.a
 rm ./Include/*.h
-mv ./lib${target}.a ./Release
+mv ./lib${target}.a ./${sourceFile}
 cp ${buildPath}/build/${arch}-iphoneos/$target/*.h ./Include
 
-
+cd ./Include
+./updateReactHeaderFiles.sh

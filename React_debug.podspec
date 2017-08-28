@@ -24,7 +24,7 @@ s.version      = "0.29.0.0"
 
  s.framework = 'SystemConfiguration'
  s.preserve_paths = 'Release'
- s.ios.vendored_libraries = 'Release/libReact.a'
+ s.ios.vendored_libraries = 'Debug/libReact.a'
 					         
  s.library = 'c++'
 
