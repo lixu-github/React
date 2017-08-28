@@ -1,11 +1,11 @@
 #!/bin/sh
 
 buildPath=`pwd`
-arch="Release"
+arch="Debug"
 target="React"
 projectPath="Pods/Pods.xcodeproj"
 hederFile="Include"
-sourceFile="Release"
+sourceFile="Debug"
 
 #编译i386 x86_64
 xcodebuild -project ${buildPath}/${projectPath} -target $target OTHER_CFLAGS="-fembed-bitcode" ONLY_ACTIVE_ARCH=NO -sdk iphonesimulator VALID_ARCHS="x86_64 i386" -configuration $arch clean build

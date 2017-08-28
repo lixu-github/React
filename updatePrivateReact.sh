@@ -67,7 +67,7 @@ sed -i ' ' "s/$versionLine/s.version      = \"$newVersion\"/g" ./${podName}.pods
 rm ./${podName}.podspec\ 
 
 #验证podspec
-pod lib lint --allow-warnings --use-libraries  --sources=https://github.com/dennis-li/DennisRepos.git
+pod lib lint --allow-warnings --use-libraries 
 verifyOperation "${podName} pod lib lint 出错！请检查podspec！！"
 
 #将改动推到远程仓库并创建新的分支
@@ -80,10 +80,10 @@ git push origin $newVersion
 verifyOperation "${podName}创建新的tag => $newVersion 失败!!!"
 
 #更新私有库
-pod repo update DennisRepos
+pod repo update MyRepos
 verifyOperation "更新私有pod库失败!!!" "更新私有pod库成功!!!"
 
-pod repo push DennisRepos ${podName}.podspec --verbose --use-libraries --allow-warnings
+pod repo push DennisRepos React_debug.podspec --verbose
 verifyOperation "更新私有库信息失败" "更新私有库信息成功"
 
 niceMessage "更新${podName} pod 成功！！！"
