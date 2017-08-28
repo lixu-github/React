@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/Libraries/Text/RCTText.m \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/Pods/Target\ Support\ Files/React/React-prefix.pch \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/Libraries/Text/RCTText.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/Libraries/Text/RCTShadowText.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/React/Views/RCTShadowView.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/React/Layout/Layout.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/React/Base/RCTRootView.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/React/Base/RCTJavaScriptExecutor.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/iqiyi/Downloads/Develop/Developer/PrivatePods/React/ReactComponents/node_modules/react-native/React/Views/UIView+React.h
