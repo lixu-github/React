@@ -49,7 +49,7 @@ createNewVersion()
 ./buildReact.sh
 verifyOperation 
 
-podName="React"
+podName="React_debug"
 
 #提取代码版本所在行
 git pull origin master
